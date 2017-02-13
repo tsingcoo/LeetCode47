@@ -1,7 +1,8 @@
 #include <iostream>
 #include "solution.h"
+#include "solution2.h"
 int main() {
-    Solution s;
+    Solution2 s;
     std::vector<int> arr = {1,1,2,2};
     std::vector<std::vector<int>> result;
     result = s.permuteUnique(arr);
